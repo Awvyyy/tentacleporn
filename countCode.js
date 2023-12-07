@@ -6,7 +6,7 @@ const data = [  "FWmcfgAWxe","KnFJXGcACq","cCYApSPiX0","iHwbq2giBx","X5Ebl6sjLf"
 function countCode(letter) {
   let count = 0;
 
-  data.forEach(function(code) {    // Kontrollime koodi esimest tähte ja võrdleme seda antud tähega
+  data.forEach(function(code) {
     if (code.charAt(0).toLowerCase() === letter.toLowerCase()) {      count++;
     }  });
 
